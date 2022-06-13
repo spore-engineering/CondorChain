@@ -1,4 +1,7 @@
 # condorchain
+
+![CondorChain](https://raw.githubusercontent.com/spore-engineering/CondorChain/main/condor_logo_white_square.png)
+
 **condorchain** is a blockchain built using Cosmos SDK and Tendermint and created with [Ignite CLI](https://ignite.com/cli).
 
 ## Get started
