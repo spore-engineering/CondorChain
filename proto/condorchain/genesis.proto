@@ -1,0 +1,14 @@
+syntax = "proto3";
+package sporeengineering.condorchain.condorchain;
+
+import "gogoproto/gogo.proto";
+import "condorchain/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/spore-engineering/CondorChain/x/condorchain/types";
+
+// GenesisState defines the condorchain module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}

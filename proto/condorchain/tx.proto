@@ -1,0 +1,13 @@
+syntax = "proto3";
+package sporeengineering.condorchain.condorchain;
+
+// this line is used by starport scaffolding # proto/tx/import
+
+option go_package = "github.com/spore-engineering/CondorChain/x/condorchain/types";
+
+// Msg defines the Msg service.
+service Msg {
+    // this line is used by starport scaffolding # proto/tx/rpc
+}
+
+// this line is used by starport scaffolding # proto/tx/message
